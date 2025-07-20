@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Noor Circle</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Quicksand:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background-color: #fdf6ec;
+      color: #2d4c44;
+      text-align: center;
+      padding: 2rem;
+      animation: fadeIn 1s ease-in-out;
+    }
+    img.logo {
+      width: 160px;
+      max-width: 50%;
+      margin: 1rem auto;
+      display: block;
+    }
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+      color: #36584a;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      animation: float 3s ease-in-out infinite;
+    }
+    .section {
+      margin: 2rem auto;
+      max-width: 700px;
+      padding: 1rem;
+      border-radius: 20px;
+      background: #fffbe6;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+    .section:hover {
+      transform: scale(1.02);
+    }
+    p, li {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+    ul {
+      text-align: left;
+      display: inline-block;
+    }
+    .slogan {
+      font-style: italic;
+      font-size: 1.2rem;
+      color: #a67c00;
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .contact {
+      margin-top: 2rem;
+      font-size: 0.95rem;
+    }
+    a { color: #a67c00; text-decoration: none; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <img src="IMG_3472.png" alt="Noor Circle Logo" class="logo" />
+  <h1>Noor Circle</h1>
+  <p class="slogan">Shine its grace, Own your space</p>
+  <div class="section">
+    <h2>Mission</h2>
+    <p>To empower Muslim girls in Kirkland and in other states in the future through mentorship, education, and community, fostering confident identities rooted in leadership, companionship, and Islam.</p>
+    <h2>Vision</h2>
+    <p>A community every Muslim girl feels safe, inspired and supported.</p>
+  </div>
+  <div class="section">
+    <h2>Who We Are</h2>
+    <p>A nonprofit led by Muslim women, dedicated to nurturing the next generation of empowered faith-driven girls through mentorship, life skills, and sisterhood.</p>
+    <h2>What We Do</h2>
+    <ul>
+      <li>Monthly educational & social events</li>
+      <li>Leadership workshops</li>
+      <li>Cultural and Islamic identity talks</li>
+      <li>Sports and creative arts</li>
+      <li>Safe spaces for discussion</li>
+    </ul>
+  </div>
+  <div class="section">
+    <h2>How You Can Help</h2>
+    <p>Donate | Volunteer | Be a Mentor | Sponsor Events</p>
+    <h2>Business Goals</h2>
+    <ul>
+      <li>Register NPO: 3–6 months</li>
+      <li>Host First Event: 2 months</li>
+      <li>Monthly Programs: 6 months</li>
+      <li>Fundraising: Ongoing</li>
+    </ul>
+  </div>
+  <div class="section">
+    <h2>Local Event Venues</h2>
+    <ul>
+      <li>North Kirkland Community Center</li>
+      <li>Kirkland Library Meeting Rooms</li>
+      <li>MAPS Redmond or Masjid Bilal</li>
+      <li>Juanita Beach & Marina Park</li>
+      <li>YMCA / local school gyms</li>
+    </ul>
+    <h2>Event Ideas</h2>
+    <ul>
+      <li>Vision Board Picnic • Hijab Workshop • Quran Journaling</li>
+      <li>Winter Coat Drive • Mental Health + Islam</li>
+      <li>Ramadan Iftars • Poetry Night • Eid Party</li>
+    </ul>
+  </div>
+  <div class="section">
+    <h2>Fundraising & Marketing</h2>
+    <ul>
+      <li>Partner: Local donors, Mosques, LaunchGood</li>
+      <li>Promote: Instagram, Canva flyers, WhatsApp group</li>
+      <li>Email sign-up at events</li>
+    </ul>
+    <h2>Community Partners</h2>
+    <ul>
+      <li>MAPS Redmond • ICNA Seattle • Muslimah Empowered</li>
+      <li>Muslim professionals & MSAs</li>
+    </ul>
+  </div>
+  <div class="contact">
+    <p>📍 Kirkland, WA<br/>
+    📧 <a href="mailto:noorcircle.wa@gmail.com">noorcircle.wa@gmail.com</a><br/>
+    📞 (872) 258-9058 (Text or WhatsApp)<br/>
+    📱 <a href="https://instagram.com/noorcircle_wa">@noorcircle_wa</a> | TikTok: @noorcircle_wa<br/>
+    🌐 <a href="#">www.noorcircle.org</a> (Coming soon)</p>
+  </div>
+</body>
+</html>
